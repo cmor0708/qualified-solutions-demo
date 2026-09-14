@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qualified Solutions - USA | Bookkeeping & Tax Services</title>
+<meta name="description" content="Qualified Solutions - USA provides bookkeeping, tax preparation and financial organization services for individuals and small businesses in Sacramento.">
+<style>
+:root{
+  --navy:#102a43;--blue:#1d5d8f;--teal:#16847a;--cream:#f7f5ef;--ink:#17202a;
+  --muted:#617080;--white:#fff;--line:#dfe6ec;--shadow:0 18px 45px rgba(16,42,67,.10)
+}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);line-height:1.6;background:#fff}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid #edf1f4}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--navy)}
+.logo-mark{width:42px;height:42px;border-radius:11px;background:var(--navy);color:#fff;display:grid;place-items:center;font-size:18px}
+.logo small{display:block;color:var(--muted);font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+nav{display:flex;gap:28px;font-size:14px;font-weight:700;color:#3d4c5b}
+nav a:hover{color:var(--teal)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:9px;font-weight:800;font-size:14px;border:1px solid transparent;cursor:pointer}
+.btn-primary{background:var(--teal);color:#fff}.btn-primary:hover{background:#116d65}
+.btn-outline{border-color:#cbd6df;color:var(--navy);background:#fff}
+.hero{background:linear-gradient(135deg,#eef6f5 0%,#fff 58%,#f6f2e9 100%);padding:92px 0 84px}
+.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:70px}
+.eyebrow{color:var(--teal);font-size:13px;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+h1{font-size:clamp(42px,6vw,68px);line-height:1.05;letter-spacing:-.045em;margin:16px 0 22px;color:var(--navy)}
+.lead{font-size:19px;color:var(--muted);max-width:650px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+.trust{display:flex;gap:24px;flex-wrap:wrap;margin-top:32px;color:#4d5d6c;font-size:13px;font-weight:700}
+.card-hero{background:#fff;border:1px solid #e3e9ed;border-radius:20px;padding:30px;box-shadow:var(--shadow)}
+.card-hero h3{margin:0;color:var(--navy);font-size:22px}.card-hero p{color:var(--muted);font-size:14px}
+.mini{display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-top:1px solid var(--line)}
+.icon{width:36px;height:36px;border-radius:9px;background:#e7f4f2;color:var(--teal);display:grid;place-items:center;font-weight:900}
+section{padding:88px 0}.section-head{text-align:center;max-width:720px;margin:0 auto 48px}.section-head h2{font-size:38px;line-height:1.15;color:var(--navy);margin:10px 0}.section-head p{color:var(--muted)}
+.services{background:#fff}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.service{border:1px solid var(--line);border-radius:16px;padding:28px;background:#fff;transition:.2s}.service:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.service h3{color:var(--navy);margin:17px 0 8px}.service p{color:var(--muted);font-size:14px}
+.service ul{padding-left:19px;color:#4d5d6c;font-size:14px}
+.about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.about h2{font-size:40px;color:var(--navy);line-height:1.15}.about p{color:var(--muted)}
+.points{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}.point{background:#fff;border:1px solid var(--line);padding:18px;border-radius:12px;font-weight:750;color:var(--navy)}
+.testimonials{background:#fff}.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.quote{border:1px solid var(--line);padding:25px;border-radius:15px}.stars{letter-spacing:3px;color:#d18c20}.quote p{color:#4d5d6c;font-size:15px}.quote strong{color:var(--navy);font-size:14px}
+.cta{background:var(--navy);color:#fff}.cta-grid{display:flex;align-items:center;justify-content:space-between;gap:30px}.cta h2{font-size:38px;margin:0 0 8px}.cta p{color:#cbd8e2;margin:0}
+.contact{background:#f8fafb}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:45px}
+.contact h2{font-size:38px;color:var(--navy);line-height:1.15}.contact-info{margin-top:25px}.contact-item{padding:15px 0;border-bottom:1px solid var(--line)}.contact-item b{display:block;color:var(--navy)}.contact-item span{color:var(--muted)}
+form{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px;box-shadow:0 10px 30px rgba(16,42,67,.06)}
+label{display:block;font-size:13px;font-weight:800;color:var(--navy);margin:13px 0 6px}input,textarea,select{width:100%;padding:13px 14px;border:1px solid #ccd6de;border-radius:8px;font:inherit;background:#fff}textarea{min-height:125px;resize:vertical}
+footer{background:#0b2033;color:#d8e2ea;padding:34px 0}.footer{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer small{color:#9fb0be}
+.notice{font-size:12px;color:#748494;margin-top:12px}
+@media(max-width:850px){nav{display:none}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.grid3,.quotes{grid-template-columns:1fr}.hero{padding:65px 0}.cta-grid{display:block}.cta .btn{margin-top:22px}.about-grid{gap:30px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#home"><span class="logo-mark">QS</span><span>Qualified Solutions<small>USA · Accounting & Tax</small></span></a>
+    <nav><a href="#services">Services</a><a href="#about">About</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a></nav>
+    <a class="btn btn-primary" href="#contact">Book a Consultation</a>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Sacramento, California</div>
+      <h1>Clear books. Confident decisions.</h1>
+      <p class="lead">Practical bookkeeping, tax preparation, and financial organization for individuals and small businesses—so you can spend less time chasing paperwork and more time running your business.</p>
+      <div class="actions"><a class="btn btn-primary" href="#contact">Get Started</a><a class="btn btn-outline" href="#services">Explore Services</a></div>
+      <div class="trust"><span>✓ Local service</span><span>✓ Small-business focused</span><span>✓ Personal support</span></div>
+    </div>
+    <aside class="card-hero">
+      <h3>Take control of your finances</h3>
+      <p>Get organized, stay prepared, and understand what your numbers are telling you.</p>
+      <div class="mini"><div class="icon">01</div><div><b>Organize</b><br><small>Keep financial records clean and accessible.</small></div></div>
+      <div class="mini"><div class="icon">02</div><div><b>Prepare</b><br><small>Be ready for tax deadlines and filings.</small></div></div>
+      <div class="mini"><div class="icon">03</div><div><b>Plan</b><br><small>Make decisions with a clearer financial picture.</small></div></div>
+    </aside>
+  </div>
+</section>
+
+<section id="services" class="services">
+  <div class="container">
+    <div class="section-head"><div class="eyebrow">What we do</div><h2>Financial support without the confusion</h2><p>Tax preparation and small-business financial support, including bookkeeping, accounting support, and payroll accounting.</p></div>
+    <div class="grid3">
+      <article class="service"><div class="icon">BK</div><h3>Bookkeeping</h3><p>Reliable day-to-day financial organization that gives you a clearer view of your business.</p><ul><li>Expense tracking</li><li>Financial record organization</li><li>Reports and reconciliations</li><li>Tax-season preparation</li></ul></article>
+      <article class="service"><div class="icon">TX</div><h3>Tax Preparation & Advisory</h3><p>Practical help preparing returns and understanding tax obligations and deadlines.</p><ul><li>Individual tax preparation</li><li>Business tax support</li><li>Tax planning guidance</li><li>Filing extension guidance</li></ul></article>
+      <article class="service"><div class="icon">FO</div><h3>Financial Organization</h3><p>Turn complicated financial information into a system you can actually understand and maintain.</p><ul><li>Financial statement organization</li><li>Record-keeping systems</li><li>Business finance guidance</li><li>Ongoing organization</li></ul></article>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div><div class="eyebrow">Why Qualified Solutions</div><h2>Personal attention. Practical solutions.</h2><p>Qualified Solutions - USA is positioned as a local accounting and financial service provider serving the Sacramento area. The goal is simple: make financial administration easier to manage and easier to understand.</p><p>Whether you're preparing for tax season or trying to get your books under control, the right systems can give you greater clarity and confidence.</p></div>
+    <div class="points"><div class="point">✓ Organized records</div><div class="point">✓ Clear reporting</div><div class="point">✓ Tax-season readiness</div><div class="point">✓ Small-business support</div><div class="point">✓ Straightforward communication</div><div class="point">✓ Local service</div></div>
+  </div>
+</section>
+
+<section id="reviews" class="testimonials">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Client reviews</div>
+      <h2>Trusted by local clients</h2>
+      <p>Qualified Solutions - USA currently has a <strong>5.0 ★ rating from 25 reviews</strong> on its business listing.</p>
+    </div>
+    <div class="quotes">
+      <article class="quote">
+        <div class="stars">★★★★★</div>
+        <p>“Lovie helped us to have organized records to keep track of our financial statements which are essential for calculating our taxable income, identifying our deductions, and ensuring compliance with tax laws.”</p>
+        <strong>Verified public review excerpt</strong>
+      </article>
+      <article class="quote">
+        <div class="stars">★★★★★</div>
+        <p>Clients consistently highlight practical financial organization and support, making the firm a strong option for individuals and small-business owners who want help staying prepared.</p>
+        <strong>Review themes</strong>
+      </article>
+      <article class="quote">
+        <div class="stars">★★★★★</div>
+        <p>The business is publicly listed with a 5.0-star rating, reflecting a strongly positive overall customer experience across its available reviews.</p>
+        <strong>25 public reviews</strong>
+      </article>
+    </div>
+    <p class="notice">Review information verified against the current public business listing. The first quotation is a short excerpt from a publicly available review; the other cards summarize publicly visible rating/review information rather than presenting invented customer quotes.</p>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta-grid"><div><h2>Ready to get organized?</h2><p>Start with a conversation about what you need help with.</p></div><a class="btn btn-primary" href="#contact">Request a Consultation</a></div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container contact-grid">
+    <div><div class="eyebrow">Contact</div><h2>Let's make your finances easier to manage.</h2><p>Tell us what you need help with and we'll use the information to start the conversation.</p>
+      <div class="contact-info">
+        <div class="contact-item"><b>Location</b><span>25 Quinta Court, Sacramento, CA</span></div>
+        <div class="contact-item"><b>Services</b><span>Bookkeeping · Tax Preparation · Financial Organization</span></div>
+        <div class="contact-item"><b>Best next step</b><span>Request a consultation using the form.</span></div>
+      </div>
+    </div>
+    <form onsubmit="sendForm(event)">
+      <h3 style="margin-top:0;color:var(--navy)">Request a consultation</h3>
+      <label for="name">Name</label><input id="name" required placeholder="Your name">
+      <label for="email">Email</label><input id="email" type="email" required placeholder="you@example.com">
+      <label for="service">What can we help with?</label><select id="service"><option>Bookkeeping</option><option>Tax preparation</option><option>Financial organization</option><option>Not sure yet</option></select>
+      <label for="message">Message</label><textarea id="message" placeholder="Tell us briefly what you need help with."></textarea>
+      <button class="btn btn-primary" style="width:100%;margin-top:18px" type="submit">Send Request</button>
+      <div id="formMsg" class="notice"></div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer"><div><b>Qualified Solutions - USA</b><br><small>Tax preparation · Bookkeeping · Accounting support · Sacramento, California</small></div><small>© <span id="year"></span> Qualified Solutions - USA. All rights reserved.</small></div></footer>
+
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+function sendForm(e){
+  e.preventDefault();
+  const name=document.getElementById("name").value.trim();
+  document.getElementById("formMsg").textContent=`Thanks, ${name}. Your request is ready to be connected to the business email or CRM.`;
+}
+</script>
+</body>
+</html>
